@@ -5,25 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitApp"
         mc:Ignorable="d"
-        Title="Запись в садик" Width="500" Height="700" FontSize="22" Background="#FFE6E179" >
+        Title="Запись в садик" Width="500" Height="809.5" FontSize="22" Background="#FFE6E179">
     <Grid>
         <StackPanel>
             <Label HorizontalAlignment="Center" Height="40">
                 Введите данные ребёнка:
             </Label>
-            <Label >
+            <Label>
                 Фамилия
             </Label>
             <TextBox Margin="10"
                      x:Name="surnameElem">
             </TextBox>
-            <Label >
+            <Label>
                 Имя
             </Label>
             <TextBox Margin="10"
                      x:Name="nameElem">
             </TextBox>
-            <Label >
+            <Label>
                 Отчество
             </Label>
             <TextBox Margin="10"
@@ -35,10 +35,15 @@
             <TextBox Margin="10"
                      x:Name="ageElem">
             </TextBox>
+
             <Label Margin="10">
                 Выберите пол ребенка
             </Label>
             <ComboBox Margin="10">
+            </ComboBox>
+            <Label Margin="10">Выберите пол ребенка</Label>
+            <ComboBox>
+
                 <ComboBoxItem>жен</ComboBoxItem>
                 <ComboBoxItem>муж</ComboBoxItem>
             </ComboBox>
