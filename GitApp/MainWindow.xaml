@@ -1,0 +1,54 @@
+﻿<Window x:Class="GitApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GitApp"
+        mc:Ignorable="d"
+        Title="Запись в садик" Width="500" Height="600" FontSize="22">
+    <Grid>
+        <StackPanel>
+            <Label HorizontalAlignment="Center" Height="40">
+                Введите данные ребёнка:
+            </Label>
+            <Label >
+                Фамилия
+            </Label>
+            <TextBox Margin="10"
+                     x:Name="surnameElem">
+            </TextBox>
+            <Label >
+                Имя
+            </Label>
+            <TextBox Margin="10"
+                     x:Name="nameElem">
+            </TextBox>
+            <Label >
+                Отчество
+            </Label>
+            <TextBox Margin="10"
+                     x:Name="midnameElem">
+            </TextBox>
+            <Label >
+                Дата рождения
+            </Label>
+            <TextBox Margin="10"
+                     x:Name="ageElem">
+            </TextBox>
+            <Label>
+                Выберите садик
+            </Label>
+            <ComboBox Margin="10"
+                      x:Name="numbElem">
+                <ComboBoxItem>127</ComboBoxItem>
+                <ComboBoxItem>113</ComboBoxItem>
+                <ComboBoxItem>68</ComboBoxItem>
+                <ComboBoxItem>64</ComboBoxItem>
+                <ComboBoxItem>283</ComboBoxItem>
+            </ComboBox>
+            <Button Click="Button_Click">
+                Записаться в садик
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
