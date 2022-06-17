@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitApp"
         mc:Ignorable="d"
-        Title="Запись в садик" Width="500" Height="600" FontSize="22">
+        Title="Запись в садик" Width="500" Height="700" FontSize="22">
     <Grid>
         <StackPanel>
             <Label HorizontalAlignment="Center" Height="40">
