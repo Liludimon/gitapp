@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitApp"
         mc:Ignorable="d"
-        Title="Запись в садик" Width="500" Height="600" FontSize="22">
+        Title="Запись в садик" Width="500" Height="700" FontSize="22" Background="#FFE6E179" >
     <Grid>
         <StackPanel>
             <Label HorizontalAlignment="Center" Height="40">
@@ -35,8 +35,10 @@
             <TextBox Margin="10"
                      x:Name="ageElem">
             </TextBox>
-            <Label Margin="10">Выберите пол ребенка</Label>
-            <ComboBox>
+            <Label Margin="10">
+                Выберите пол ребенка
+            </Label>
+            <ComboBox Margin="10">
                 <ComboBoxItem>жен</ComboBoxItem>
                 <ComboBoxItem>муж</ComboBoxItem>
             </ComboBox>
@@ -51,7 +53,10 @@
                 <ComboBoxItem>64</ComboBoxItem>
                 <ComboBoxItem>283</ComboBoxItem>
             </ComboBox>
-            <Button Click="Button_Click">
+            <Button Click="Button_Click" 
+                    Background="#FF4B9716" 
+                    FontWeight="Bold" 
+                    Width="250">
                 Записаться в садик
             </Button>
         </StackPanel>
