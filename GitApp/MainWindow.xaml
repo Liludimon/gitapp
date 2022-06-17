@@ -41,7 +41,7 @@
             <ComboBox Margin="10">
             </ComboBox>
             <Label Margin="10">Выберите пол ребенка</Label>
-            <ComboBox>
+            <ComboBox Margin="10">
 
                 <ComboBoxItem>жен</ComboBoxItem>
                 <ComboBoxItem>муж</ComboBoxItem>
