@@ -35,7 +35,6 @@
             <TextBox Margin="10"
                      x:Name="ageElem">
             </TextBox>
-
             <Label Margin="10">
                 Выберите пол ребенка
             </Label>
